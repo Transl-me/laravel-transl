@@ -1,0 +1,38 @@
+{
+    "locale": "en",
+    "group": "auth",
+    "namespace": null,
+    "lines": [
+        {
+            "key": "failed",
+            "value": "These credentials do not match our records.",
+            "meta": {
+                "original_value_type": "string"
+            }
+        },
+        {
+            "key": "password",
+            "value": "[Modified] - The provided password is incorrect.",
+            "meta": {
+                "original_value_type": "string"
+            }
+        },
+        {
+            "key": "throttle",
+            "value": "Too many login attempts. Please try again in :seconds seconds.",
+            "meta": {
+                "original_value_type": "string"
+            }
+        },
+        {
+            "key": "failed_bis",
+            "value": "These credentials do not match our records.",
+            "meta": {
+                "original_value_type": "string"
+            }
+        }
+    ],
+    "meta": {
+        "some_metadata": "some_value"
+    }
+}

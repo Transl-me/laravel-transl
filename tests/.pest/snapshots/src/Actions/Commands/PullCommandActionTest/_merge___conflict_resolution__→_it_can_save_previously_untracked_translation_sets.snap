@@ -1,0 +1,67 @@
+[
+    {
+        "path": "\/transl-me\/laravel-transl\/TestSupport\/.to-delete\/PullCommandActionTest\/lang\/en.json",
+        "contents": "{\n    \"Hello\": \"[JSON] Hello!\",\n    \"pages.dashboard.nav.users.billing\": \"[JSON] overriden 'pages.dashboard.nav.users.billing'!\",\n    \"pages.dashboard.nav.users.logout\": \"[JSON] overriden 'pages.dashboard.nav.users.logout'!\",\n    \"null\": null,\n    \"string\": \"hello\",\n    \"true\": true,\n    \"false\": false,\n    \"int\": 123,\n    \"float\": 123.123,\n    \"string_null\": \"null\",\n    \"string_true\": \"true\",\n    \"string_false\": \"false\",\n    \"string_int\": \"123\",\n    \"string_float\": \"123.123\",\n    \"string_empty\": \"\",\n    \"array_empty\": []\n}",
+        "lock": false
+    },
+    {
+        "path": "\/transl-me\/laravel-transl\/TestSupport\/.to-delete\/PullCommandActionTest\/lang\/en\/auth.php",
+        "contents": "<?php\n\nreturn [\n    'failed' => 'These credentials do not match our records.',\n    'password' => '[Modified] - The provided password is incorrect.',\n    'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',\n    'failed_bis' => 'These credentials do not match our records.',\n];\n",
+        "lock": false
+    },
+    {
+        "path": "\/transl-me\/laravel-transl\/TestSupport\/.to-delete\/PullCommandActionTest\/lang\/en\/email.php",
+        "contents": "<?php\n\nreturn [\n    'Contact' => 'contact@example.com',\n    'Help' => 'help@example.com',\n    'Sales' => 'sales@example.com',\n];\n",
+        "lock": false
+    },
+    {
+        "path": "\/transl-me\/laravel-transl\/TestSupport\/.to-delete\/PullCommandActionTest\/lang\/en\/flash.php",
+        "contents": "<?php\n\nreturn [\n    'user' => [\n        'creation' => [\n            'success' => 'Some success message.',\n            'error' => 'Some error message.',\n        ],\n    ],\n    'organization' => [],\n    'billing' => null,\n];\n",
+        "lock": false
+    },
+    {
+        "path": "\/transl-me\/laravel-transl\/TestSupport\/.to-delete\/PullCommandActionTest\/lang\/en\/pages\/dashboard\/nav.php",
+        "contents": "<?php\n\nreturn [\n    'users' => [\n        'profile' => 'Profile',\n        'billing' => 'Billing',\n        'password' => 'Password',\n        'logout' => 'Log out',\n    ],\n];\n",
+        "lock": false
+    },
+    {
+        "path": "\/transl-me\/laravel-transl\/TestSupport\/.to-delete\/PullCommandActionTest\/lang\/en\/value_types.php",
+        "contents": "<?php\n\nreturn [\n    'null' => null,\n    'string' => 'hello',\n    'true' => true,\n    'false' => false,\n    'int' => 123,\n    'float' => 123.123,\n    'string_null' => 'null',\n    'string_true' => 'true',\n    'string_false' => 'false',\n    'string_int' => '123',\n    'string_float' => '123.123',\n    'string_empty' => '',\n    'array_filled_null' => [\n        null,\n    ],\n    'array_filled_string' => [\n        'hello',\n    ],\n    'array_filled_true' => [\n        true,\n    ],\n    'array_filled_false' => [\n        false,\n    ],\n    'array_filled_int' => [\n        123,\n    ],\n    'array_filled_float' => [\n        123.123,\n    ],\n    'array_empty' => [],\n    'multi_array_filled_null' => [\n        'hey' => null,\n    ],\n    'multi_array_filled_string' => [\n        'hey' => 'hello',\n    ],\n    'multi_array_filled_true' => [\n        'hey' => true,\n    ],\n    'multi_array_filled_false' => [\n        'hey' => false,\n    ],\n    'multi_array_filled_int' => [\n        'hey' => 123,\n    ],\n    'multi_array_filled_float' => [\n        'hey' => 123.123,\n    ],\n    'Collection_filled_null' => [\n        null,\n    ],\n    'Collection_filled_string' => [\n        'hello',\n    ],\n    'Collection_filled_true' => [\n        true,\n    ],\n    'Collection_filled_false' => [\n        false,\n    ],\n    'Collection_filled_int' => [\n        123,\n    ],\n    'Collection_filled_float' => [\n        123.123,\n    ],\n    'Collection_empty' => [],\n    'multi_Collection_filled_null' => [\n        'hey' => null,\n    ],\n    'multi_Collection_filled_string' => [\n        'hey' => 'hello',\n    ],\n    'multi_Collection_filled_true' => [\n        'hey' => true,\n    ],\n    'multi_Collection_filled_false' => [\n        'hey' => false,\n    ],\n    'multi_Collection_filled_int' => [\n        'hey' => 123,\n    ],\n    'multi_Collection_filled_float' => [\n        'hey' => 123.123,\n    ],\n    'Stringable' => 'I\\'m Stringable',\n    'stdClass' => [\n        'null' => null,\n        'string' => 'hello',\n        'true' => true,\n        'false' => false,\n        'int' => 123,\n        'float' => 123.123,\n        'array_empty' => [],\n        'array_filled' => [\n            'attributes' => [\n                'address' => [\n                    'line_1' => 123,\n                    'line_2' => null,\n                    'street' => 'abc',\n                ],\n            ],\n        ],\n    ],\n    'Closure_null' => null,\n    'Closure_string' => 'hello',\n    'Closure_true' => true,\n    'Closure_false' => false,\n    'Closure_int' => 123,\n    'Closure_float' => 123.123,\n    'Closure_string_null' => 'null',\n    'Closure_string_true' => 'true',\n    'Closure_string_false' => 'false',\n    'Closure_string_int' => '123',\n    'Closure_string_float' => '123.123',\n    'Closure_string_empty' => '',\n    'Closure_Collection_filled_null' => [\n        null,\n    ],\n    'Closure_Collection_filled_string' => [\n        'hello',\n    ],\n    'Closure_Collection_filled_true' => [\n        true,\n    ],\n    'Closure_Collection_filled_false' => [\n        false,\n    ],\n    'Closure_Collection_filled_int' => [\n        123,\n    ],\n    'Closure_Collection_filled_float' => [\n        123.123,\n    ],\n    'Closure_Collection_empty' => [],\n    'Closure_multi_Collection_filled_null' => [\n        'hey' => null,\n    ],\n    'Closure_multi_Collection_filled_string' => [\n        'hey' => 'hello',\n    ],\n    'Closure_multi_Collection_filled_true' => [\n        'hey' => true,\n    ],\n    'Closure_multi_Collection_filled_false' => [\n        'hey' => false,\n    ],\n    'Closure_multi_Collection_filled_int' => [\n        'hey' => 123,\n    ],\n    'Closure_multi_Collection_filled_float' => [\n        'hey' => 123.123,\n    ],\n    'Closure_Stringable' => 'I\\'m Stringable',\n    'Closure_stdClass' => [\n        'null' => null,\n        'string' => 'hello',\n        'true' => true,\n        'false' => false,\n        'int' => 123,\n        'float' => 123.123,\n        'array_empty' => [],\n        'array_filled' => [\n            'attributes' => [\n                'address' => [\n                    'line_1' => 123,\n                    'line_2' => null,\n                    'street' => 'abc',\n                ],\n            ],\n        ],\n    ],\n    'Closure_Closure_stdClass' => [\n        'null' => null,\n        'string' => 'hello',\n        'true' => true,\n        'false' => false,\n        'int' => 123,\n        'float' => 123.123,\n        'array_empty' => [],\n        'array_filled' => [\n            'attributes' => [\n                'address' => [\n                    'line_1' => 123,\n                    'line_2' => null,\n                    'street' => 'abc',\n                ],\n            ],\n        ],\n    ],\n    'Closure_with_params' => null,\n];\n",
+        "lock": false
+    },
+    {
+        "path": "\/transl-me\/laravel-transl\/TestSupport\/.to-delete\/PullCommandActionTest\/lang\/fr.json",
+        "contents": "{\n    \"Hello\": \"[FR][JSON] Hello!\",\n    \"pages.dashboard.nav.users.billing\": \"[FR][JSON] overriden 'pages.dashboard.nav.users.billing'!\",\n    \"pages.dashboard.nav.users.logout\": \"[FR][JSON] overriden 'pages.dashboard.nav.users.logout'!\",\n    \"pages\/dashboard\/nav.users.logout\": \"[FR][JSON][bis] overriden 'pages.dashboard.nav.users.logout'!\"\n}",
+        "lock": false
+    },
+    {
+        "path": "\/transl-me\/laravel-transl\/TestSupport\/.to-delete\/PullCommandActionTest\/lang\/fr\/auth.php",
+        "contents": "<?php\n\nreturn [\n    'failed_bis' => '[FR] These credentials do not match our records.',\n    'password' => '[FR][Modified] - The provided password is incorrect.',\n];\n",
+        "lock": false
+    },
+    {
+        "path": "\/transl-me\/laravel-transl\/TestSupport\/.to-delete\/PullCommandActionTest\/lang\/fr\/pages\/dashboard\/nav.php",
+        "contents": "<?php\n\nreturn [\n    'users' => [\n        'profile' => '[FR] Profile',\n        'billing' => '[FR] Billing',\n        'password' => '[FR] Password',\n        'logout' => '[FR] Log out',\n    ],\n];\n",
+        "lock": false
+    },
+    {
+        "path": "\/transl-me\/laravel-transl\/TestSupport\/.to-delete\/PullCommandActionTest\/lang\/vendor\/some_package\/en\/auth.php",
+        "contents": "<?php\n\nreturn [\n    'failed_bis_from_vendor' => 'These credentials do not match our records.',\n];\n",
+        "lock": false
+    },
+    {
+        "path": "\/transl-me\/laravel-transl\/TestSupport\/.to-delete\/PullCommandActionTest\/lang\/vendor\/some_package\/en\/example.php",
+        "contents": "<?php\n\nreturn [\n    'attributes' => [\n        'attribute_1' => '__str__value_1',\n    ],\n];\n",
+        "lock": false
+    },
+    {
+        "path": "\/transl-me\/laravel-transl\/TestSupport\/.to-delete\/PullCommandActionTest\/lang\/vendor\/some_package\/en\/pages\/dashboard\/nav.php",
+        "contents": "<?php\n\nreturn [\n    'users' => [\n        'password' => '[Vendor] - Password',\n        'password_bis' => '[Vendor] - Password_bis',\n    ],\n];\n",
+        "lock": false
+    },
+    {
+        "path": "\/transl-me\/laravel-transl\/TestSupport\/.to-delete\/PullCommandActionTest\/lang\/vendor\/some_package\/fr\/pages\/dashboard\/nav.php",
+        "contents": "<?php\n\nreturn [\n    'users' => [\n        'password' => '[Vendor][FR] - Password',\n        'password_bis' => '[Vendor][FR] - Password_bis',\n    ],\n];\n",
+        "lock": false
+    }
+]

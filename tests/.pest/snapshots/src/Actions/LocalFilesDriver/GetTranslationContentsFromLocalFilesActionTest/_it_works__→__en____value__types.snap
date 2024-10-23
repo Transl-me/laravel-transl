@@ -1,0 +1,136 @@
+{
+    "null": null,
+    "string": "hello",
+    "true": true,
+    "false": false,
+    "int": 123,
+    "float": 123.123,
+    "string_null": "null",
+    "string_true": "true",
+    "string_false": "false",
+    "string_int": "123",
+    "string_float": "123.123",
+    "string_empty": "",
+    "array_filled_null": [
+        null
+    ],
+    "array_filled_string": [
+        "hello"
+    ],
+    "array_filled_true": [
+        true
+    ],
+    "array_filled_false": [
+        false
+    ],
+    "array_filled_int": [
+        123
+    ],
+    "array_filled_float": [
+        123.123
+    ],
+    "array_empty": [],
+    "multi_array_filled_null": {
+        "hey": null
+    },
+    "multi_array_filled_string": {
+        "hey": "hello"
+    },
+    "multi_array_filled_true": {
+        "hey": true
+    },
+    "multi_array_filled_false": {
+        "hey": false
+    },
+    "multi_array_filled_int": {
+        "hey": 123
+    },
+    "multi_array_filled_float": {
+        "hey": 123.123
+    },
+    "Collection_filled_null": [
+        null
+    ],
+    "Collection_filled_string": [
+        "hello"
+    ],
+    "Collection_filled_true": [
+        true
+    ],
+    "Collection_filled_false": [
+        false
+    ],
+    "Collection_filled_int": [
+        123
+    ],
+    "Collection_filled_float": [
+        123.123
+    ],
+    "Collection_empty": [],
+    "multi_Collection_filled_null": {
+        "hey": null
+    },
+    "multi_Collection_filled_string": {
+        "hey": "hello"
+    },
+    "multi_Collection_filled_true": {
+        "hey": true
+    },
+    "multi_Collection_filled_false": {
+        "hey": false
+    },
+    "multi_Collection_filled_int": {
+        "hey": 123
+    },
+    "multi_Collection_filled_float": {
+        "hey": 123.123
+    },
+    "Stringable": "I'm Stringable",
+    "stdClass": {
+        "null": null,
+        "string": "hello",
+        "true": true,
+        "false": false,
+        "int": 123,
+        "float": 123.123,
+        "array_empty": [],
+        "array_filled": {
+            "attributes": {
+                "address": {
+                    "line_1": 123,
+                    "line_2": null,
+                    "street": "abc"
+                }
+            }
+        }
+    },
+    "Closure_null": {},
+    "Closure_string": {},
+    "Closure_true": {},
+    "Closure_false": {},
+    "Closure_int": {},
+    "Closure_float": {},
+    "Closure_string_null": {},
+    "Closure_string_true": {},
+    "Closure_string_false": {},
+    "Closure_string_int": {},
+    "Closure_string_float": {},
+    "Closure_string_empty": {},
+    "Closure_Collection_filled_null": {},
+    "Closure_Collection_filled_string": {},
+    "Closure_Collection_filled_true": {},
+    "Closure_Collection_filled_false": {},
+    "Closure_Collection_filled_int": {},
+    "Closure_Collection_filled_float": {},
+    "Closure_Collection_empty": {},
+    "Closure_multi_Collection_filled_null": {},
+    "Closure_multi_Collection_filled_string": {},
+    "Closure_multi_Collection_filled_true": {},
+    "Closure_multi_Collection_filled_false": {},
+    "Closure_multi_Collection_filled_int": {},
+    "Closure_multi_Collection_filled_float": {},
+    "Closure_Stringable": {},
+    "Closure_stdClass": {},
+    "Closure_Closure_stdClass": {},
+    "Closure_with_params": {}
+}

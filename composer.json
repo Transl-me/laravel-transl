@@ -1,0 +1,80 @@
+{
+    "name": "transl-me/laravel-transl",
+    "description": "Package for the Laravel translation management service : Transl.me",
+    "type": "library",
+    "license": "proprietary",
+    "keywords": [
+        "laravel",
+        "php",
+        "localization",
+        "translation",
+        "translation manager"
+    ],
+    "homepage": "https://github.com/transl-me/laravel-transl",
+    "authors": [
+        {
+            "name": "Victor GUTT",
+            "email": "guttvictor@yahoo.fr",
+            "homepage": "https://victorgutt.dev",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Transl\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Transl\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "analyse": "vendor/bin/phpstan analyse --memory-limit=1G",
+        "lint": "composer analyse",
+        "test": "vendor/bin/pest",
+        "test:coverage": "vendor/bin/pest --coverage --min=90",
+        "test:ordered": "vendor/bin/pest --order-by=default",
+        "test:[filtered]": "vendor/bin/pest --filter=ExampleTest",
+        "format": "vendor/bin/pint --test",
+        "format:fix": "vendor/bin/pint",
+        "fix": "composer format:fix"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Transl\\TranslServiceProvider"
+            ],
+            "aliases": {
+                "Transl": "Transl\\Facades\\Transl"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.1",
+        "illuminate/contracts": "^10.0||^11.0",
+        "spatie/laravel-package-tools": "^1.16"
+    },
+    "require-dev": {
+        "guzzlehttp/guzzle": "^7.8",
+        "larastan/larastan": "^2.7",
+        "laravel/pint": "^1.13",
+        "nunomaduro/collision": "^8.1.1||^7.10.0",
+        "orchestra/testbench": "^9.0.0||^8.22.0",
+        "pestphp/pest": "^2.30",
+        "pestphp/pest-plugin-laravel": "^2.2",
+        "phpstan/extension-installer": "^1.3",
+        "phpstan/phpstan-deprecation-rules": "^1.1",
+        "phpstan/phpstan-phpunit": "^1.3",
+        "phpunit/phpunit": "^10.5"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "user": {
+        "creation": {
+            "success": "Some success message.",
+            "error": "Some error message."
+        }
+    },
+    "organization": [],
+    "billing": null
+}

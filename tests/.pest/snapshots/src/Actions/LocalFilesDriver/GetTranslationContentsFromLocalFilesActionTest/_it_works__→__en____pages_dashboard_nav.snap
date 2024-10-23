@@ -1,0 +1,8 @@
+{
+    "users": {
+        "profile": "Profile",
+        "billing": "Billing",
+        "password": "Password",
+        "logout": "Log out"
+    }
+}

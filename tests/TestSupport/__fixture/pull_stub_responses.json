@@ -1,0 +1,1096 @@
+{
+    "https://api.transl.me/v0/commands/yolo/pull": {
+        "type": "multiple",
+        "data": [
+            {
+                "id": "set_1",
+                "type": "translation_set",
+                "attributes": {
+                    "id": "set_1",
+                    "locale": "en",
+                    "group": "auth",
+                    "namespace": null
+                },
+                "relations": {
+                    "lines": {
+                        "type": "multiple",
+                        "data": [
+                            {
+                                "id": "line_1",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_1",
+                                    "key": "failed",
+                                    "value": "These credentials do not match our records."
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            },
+                            {
+                                "id": "line_2",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_2",
+                                    "key": "password",
+                                    "value": "[Modified] - The provided password is incorrect."
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            },
+                            {
+                                "id": "line_3",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_3",
+                                    "key": "throttle",
+                                    "value": "Too many login attempts. Please try again in :seconds seconds."
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            },
+                            {
+                                "id": "line_4",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_4",
+                                    "key": "failed_bis",
+                                    "value": "These credentials do not match our records."
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            }
+                        ],
+                        "pagination": null,
+                        "meta": null
+                    }
+                },
+                "meta": null
+            },
+            {
+                "id": "set_2",
+                "type": "translation_set",
+                "attributes": {
+                    "id": "set_2",
+                    "locale": "en",
+                    "group": "email",
+                    "namespace": null
+                },
+                "relations": {
+                    "lines": {
+                        "type": "multiple",
+                        "data": [
+                            {
+                                "id": "line_5",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_5",
+                                    "key": "Contact",
+                                    "value": "contact@example.com"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "object"
+                                }
+                            },
+                            {
+                                "id": "line_6",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_6",
+                                    "key": "Help",
+                                    "value": "help@example.com"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "object"
+                                }
+                            },
+                            {
+                                "id": "line_7",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_7",
+                                    "key": "Sales",
+                                    "value": "sales@example.com"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "object"
+                                }
+                            }
+                        ],
+                        "pagination": null,
+                        "meta": null
+                    }
+                },
+                "meta": null
+            },
+            {
+                "id": "set_3",
+                "type": "translation_set",
+                "attributes": {
+                    "id": "set_3",
+                    "locale": "en",
+                    "group": "flash",
+                    "namespace": null
+                },
+                "relations": {
+                    "lines": {
+                        "type": "multiple",
+                        "data": [
+                            {
+                                "id": "line_8",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_8",
+                                    "key": "user.creation.success",
+                                    "value": "Some success message."
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            },
+                            {
+                                "id": "line_9",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_9",
+                                    "key": "user.creation.error",
+                                    "value": "Some error message."
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            },
+                            {
+                                "id": "line_10",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_10",
+                                    "key": "organization",
+                                    "value": []
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "array"
+                                }
+                            },
+                            {
+                                "id": "line_11",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_11",
+                                    "key": "billing",
+                                    "value": null
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "NULL"
+                                }
+                            }
+                        ],
+                        "pagination": null,
+                        "meta": null
+                    }
+                },
+                "meta": null
+            },
+            {
+                "id": "set_4",
+                "type": "translation_set",
+                "attributes": {
+                    "id": "set_4",
+                    "locale": "en",
+                    "group": "pages/dashboard/nav",
+                    "namespace": null
+                },
+                "relations": {
+                    "lines": {
+                        "type": "multiple",
+                        "data": [
+                            {
+                                "id": "line_12",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_12",
+                                    "key": "users.profile",
+                                    "value": "Profile"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            },
+                            {
+                                "id": "line_13",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_13",
+                                    "key": "users.billing",
+                                    "value": "Billing"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            },
+                            {
+                                "id": "line_14",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_14",
+                                    "key": "users.password",
+                                    "value": "Password"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            },
+                            {
+                                "id": "line_15",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_15",
+                                    "key": "users.logout",
+                                    "value": "Log out"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            }
+                        ],
+                        "pagination": null,
+                        "meta": null
+                    }
+                },
+                "meta": null
+            },
+            {
+                "id": "set_5",
+                "type": "translation_set",
+                "attributes": {
+                    "id": "set_5",
+                    "locale": "en",
+                    "group": "value_types",
+                    "namespace": null
+                },
+                "relations": {
+                    "lines": {
+                        "type": "multiple",
+                        "data": [
+                            {
+                                "id": "line_16",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_16",
+                                    "key": "null",
+                                    "value": null
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "NULL"
+                                }
+                            },
+                            {
+                                "id": "line_17",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_17",
+                                    "key": "string",
+                                    "value": "hello"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            },
+                            {
+                                "id": "line_18",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_18",
+                                    "key": "true",
+                                    "value": true
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "boolean"
+                                }
+                            },
+                            {
+                                "id": "line_19",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_19",
+                                    "key": "false",
+                                    "value": false
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "boolean"
+                                }
+                            },
+                            {
+                                "id": "line_20",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_20",
+                                    "key": "int",
+                                    "value": 123
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "integer"
+                                }
+                            },
+                            {
+                                "id": "line_21",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_21",
+                                    "key": "float",
+                                    "value": 123.123
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "double"
+                                }
+                            },
+                            {
+                                "id": "line_22",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_22",
+                                    "key": "string_null",
+                                    "value": "null"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            },
+                            {
+                                "id": "line_23",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_23",
+                                    "key": "string_true",
+                                    "value": "true"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            },
+                            {
+                                "id": "line_24",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_24",
+                                    "key": "string_false",
+                                    "value": "false"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            },
+                            {
+                                "id": "line_25",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_25",
+                                    "key": "string_int",
+                                    "value": "123"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            },
+                            {
+                                "id": "line_26",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_26",
+                                    "key": "string_float",
+                                    "value": "123.123"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            },
+                            {
+                                "id": "line_27",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_27",
+                                    "key": "string_empty",
+                                    "value": ""
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            },
+                            {
+                                "id": "line_28",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_28",
+                                    "key": "array_empty",
+                                    "value": []
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "array"
+                                }
+                            },
+                            {
+                                "id": "line_29",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_29",
+                                    "key": "Stringable",
+                                    "value": "I'm Stringable"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "object"
+                                }
+                            }
+                        ],
+                        "pagination": null,
+                        "meta": null
+                    }
+                },
+                "meta": null
+            }
+        ],
+        "pagination": {
+            "type": "cursor",
+            "attributes": {
+                "path": "https://api.transl.me/v0/commands/yolo/pull",
+                "per_page": 5,
+                "has_more_pages": true,
+                "prev_cursor": null,
+                "prev_page_url": null,
+                "next_cursor": "eyJpZCI6NSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ",
+                "next_page_url": "https://api.transl.me/v0/commands/yolo/pull?cursor=eyJpZCI6NSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ"
+            }
+        },
+        "meta": null
+    },
+    "https://api.transl.me/v0/commands/yolo/pull?cursor=eyJpZCI6NSwiX3BvaW50c1RvTmV4dEl0ZW1zIjp0cnVlfQ": {
+        "type": "multiple",
+        "data": [
+            {
+                "id": "set_6",
+                "type": "translation_set",
+                "attributes": {
+                    "id": "set_6",
+                    "locale": "en",
+                    "group": null,
+                    "namespace": null
+                },
+                "relations": {
+                    "lines": {
+                        "type": "multiple",
+                        "data": [
+                            {
+                                "id": "line_30",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_30",
+                                    "key": "Hello",
+                                    "value": "[JSON] Hello!"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            },
+                            {
+                                "id": "line_31",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_31",
+                                    "key": "pages.dashboard.nav.users.billing",
+                                    "value": "[JSON] overriden 'pages.dashboard.nav.users.billing'!"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            },
+                            {
+                                "id": "line_32",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_32",
+                                    "key": "pages.dashboard.nav.users.logout",
+                                    "value": "[JSON] overriden 'pages.dashboard.nav.users.logout'!"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            },
+                            {
+                                "id": "line_33",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_33",
+                                    "key": "null",
+                                    "value": null
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "NULL"
+                                }
+                            },
+                            {
+                                "id": "line_34",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_34",
+                                    "key": "string",
+                                    "value": "hello"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            },
+                            {
+                                "id": "line_35",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_35",
+                                    "key": "true",
+                                    "value": true
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "boolean"
+                                }
+                            },
+                            {
+                                "id": "line_36",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_36",
+                                    "key": "false",
+                                    "value": false
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "boolean"
+                                }
+                            },
+                            {
+                                "id": "line_37",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_37",
+                                    "key": "int",
+                                    "value": 123
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "integer"
+                                }
+                            },
+                            {
+                                "id": "line_38",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_38",
+                                    "key": "float",
+                                    "value": 123.123
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "double"
+                                }
+                            },
+                            {
+                                "id": "line_39",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_39",
+                                    "key": "string_null",
+                                    "value": "null"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            },
+                            {
+                                "id": "line_40",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_40",
+                                    "key": "string_true",
+                                    "value": "true"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            },
+                            {
+                                "id": "line_41",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_41",
+                                    "key": "string_false",
+                                    "value": "false"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            },
+                            {
+                                "id": "line_42",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_42",
+                                    "key": "string_int",
+                                    "value": "123"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            },
+                            {
+                                "id": "line_43",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_43",
+                                    "key": "string_float",
+                                    "value": "123.123"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            },
+                            {
+                                "id": "line_44",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_44",
+                                    "key": "string_empty",
+                                    "value": ""
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            },
+                            {
+                                "id": "line_45",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_45",
+                                    "key": "array_empty",
+                                    "value": []
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "array"
+                                }
+                            }
+                        ],
+                        "pagination": null,
+                        "meta": null
+                    }
+                },
+                "meta": null
+            },
+            {
+                "id": "set_7",
+                "type": "translation_set",
+                "attributes": {
+                    "id": "set_7",
+                    "locale": "fr",
+                    "group": "auth",
+                    "namespace": null
+                },
+                "relations": {
+                    "lines": {
+                        "type": "multiple",
+                        "data": [
+                            {
+                                "id": "line_46",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_46",
+                                    "key": "failed_bis",
+                                    "value": "[FR] These credentials do not match our records."
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            },
+                            {
+                                "id": "line_47",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_47",
+                                    "key": "password",
+                                    "value": "[FR][Modified] - The provided password is incorrect."
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            }
+                        ],
+                        "pagination": null,
+                        "meta": null
+                    }
+                },
+                "meta": null
+            },
+            {
+                "id": "set_8",
+                "type": "translation_set",
+                "attributes": {
+                    "id": "set_8",
+                    "locale": "fr",
+                    "group": "pages/dashboard/nav",
+                    "namespace": null
+                },
+                "relations": {
+                    "lines": {
+                        "type": "multiple",
+                        "data": [
+                            {
+                                "id": "line_48",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_48",
+                                    "key": "users.profile",
+                                    "value": "[FR] Profile"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            },
+                            {
+                                "id": "line_49",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_49",
+                                    "key": "users.billing",
+                                    "value": "[FR] Billing"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            },
+                            {
+                                "id": "line_50",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_50",
+                                    "key": "users.password",
+                                    "value": "[FR] Password"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            },
+                            {
+                                "id": "line_51",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_51",
+                                    "key": "users.logout",
+                                    "value": "[FR] Log out"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            }
+                        ],
+                        "pagination": null,
+                        "meta": null
+                    }
+                },
+                "meta": null
+            },
+            {
+                "id": "set_9",
+                "type": "translation_set",
+                "attributes": {
+                    "id": "set_9",
+                    "locale": "fr",
+                    "group": null,
+                    "namespace": null
+                },
+                "relations": {
+                    "lines": {
+                        "type": "multiple",
+                        "data": [
+                            {
+                                "id": "line_52",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_52",
+                                    "key": "Hello",
+                                    "value": "[FR][JSON] Hello!"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            },
+                            {
+                                "id": "line_53",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_53",
+                                    "key": "pages.dashboard.nav.users.billing",
+                                    "value": "[FR][JSON] overriden 'pages.dashboard.nav.users.billing'!"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            },
+                            {
+                                "id": "line_54",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_54",
+                                    "key": "pages.dashboard.nav.users.logout",
+                                    "value": "[FR][JSON] overriden 'pages.dashboard.nav.users.logout'!"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            }
+                        ],
+                        "pagination": null,
+                        "meta": null
+                    }
+                },
+                "meta": null
+            },
+            {
+                "id": "set_10",
+                "type": "translation_set",
+                "attributes": {
+                    "id": "set_10",
+                    "locale": "en",
+                    "group": "auth",
+                    "namespace": "some_package"
+                },
+                "relations": {
+                    "lines": {
+                        "type": "multiple",
+                        "data": [
+                            {
+                                "id": "line_55",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_55",
+                                    "key": "failed_bis_from_vendor",
+                                    "value": "These credentials do not match our records."
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            }
+                        ],
+                        "pagination": null,
+                        "meta": null
+                    }
+                },
+                "meta": null
+            }
+        ],
+        "pagination": {
+            "type": "cursor",
+            "attributes": {
+                "path": "https://api.transl.me/v0/commands/yolo/pull",
+                "per_page": 5,
+                "has_more_pages": true,
+                "prev_cursor": "eyJpZCI6NiwiX3BvaW50c1RvTmV4dEl0ZW1zIjpmYWxzZX0",
+                "prev_page_url": "https://api.transl.me/v0/commands/yolo/pull?cursor=eyJpZCI6NiwiX3BvaW50c1RvTmV4dEl0ZW1zIjpmYWxzZX0",
+                "next_cursor": "eyJpZCI6MTAsIl9wb2ludHNUb05leHRJdGVtcyI6dHJ1ZX0",
+                "next_page_url": "https://api.transl.me/v0/commands/yolo/pull?cursor=eyJpZCI6MTAsIl9wb2ludHNUb05leHRJdGVtcyI6dHJ1ZX0"
+            }
+        },
+        "meta": null
+    },
+    "https://api.transl.me/v0/commands/yolo/pull?cursor=eyJpZCI6MTAsIl9wb2ludHNUb05leHRJdGVtcyI6dHJ1ZX0": {
+        "type": "multiple",
+        "data": [
+            {
+                "id": "set_11",
+                "type": "translation_set",
+                "attributes": {
+                    "id": "set_11",
+                    "locale": "en",
+                    "group": "example",
+                    "namespace": "some_package"
+                },
+                "relations": {
+                    "lines": {
+                        "type": "multiple",
+                        "data": [
+                            {
+                                "id": "line_56",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_56",
+                                    "key": "attributes.attribute_1",
+                                    "value": "__str__value_1"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "object"
+                                }
+                            }
+                        ],
+                        "pagination": null,
+                        "meta": null
+                    }
+                },
+                "meta": null
+            },
+            {
+                "id": "set_12",
+                "type": "translation_set",
+                "attributes": {
+                    "id": "set_12",
+                    "locale": "en",
+                    "group": "pages/dashboard/nav",
+                    "namespace": "some_package"
+                },
+                "relations": {
+                    "lines": {
+                        "type": "multiple",
+                        "data": [
+                            {
+                                "id": "line_57",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_57",
+                                    "key": "users.password",
+                                    "value": "[Vendor] - Password"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            },
+                            {
+                                "id": "line_58",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_58",
+                                    "key": "users.password_bis",
+                                    "value": "[Vendor] - Password_bis"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            }
+                        ],
+                        "pagination": null,
+                        "meta": null
+                    }
+                },
+                "meta": null
+            },
+            {
+                "id": "set_13",
+                "type": "translation_set",
+                "attributes": {
+                    "id": "set_13",
+                    "locale": "fr",
+                    "group": "pages/dashboard/nav",
+                    "namespace": "some_package"
+                },
+                "relations": {
+                    "lines": {
+                        "type": "multiple",
+                        "data": [
+                            {
+                                "id": "line_59",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_59",
+                                    "key": "users.password",
+                                    "value": "[Vendor][FR] - Password"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            },
+                            {
+                                "id": "line_60",
+                                "type": "translation_line",
+                                "attributes": {
+                                    "id": "line_60",
+                                    "key": "users.password_bis",
+                                    "value": "[Vendor][FR] - Password_bis"
+                                },
+                                "relations": [],
+                                "meta": {
+                                    "original_value_type": "string"
+                                }
+                            }
+                        ],
+                        "pagination": null,
+                        "meta": null
+                    }
+                },
+                "meta": null
+            }
+        ],
+        "pagination": {
+            "type": "cursor",
+            "attributes": {
+                "path": "https://api.transl.me/v0/commands/yolo/pull",
+                "per_page": 5,
+                "has_more_pages": false,
+                "prev_cursor": "eyJpZCI6MTEsIl9wb2ludHNUb05leHRJdGVtcyI6ZmFsc2V9",
+                "prev_page_url": "https://api.transl.me/v0/commands/yolo/pull?cursor=eyJpZCI6MTEsIl9wb2ludHNUb05leHRJdGVtcyI6ZmFsc2V9",
+                "next_cursor": null,
+                "next_page_url": null
+            }
+        },
+        "meta": null
+    }
+}

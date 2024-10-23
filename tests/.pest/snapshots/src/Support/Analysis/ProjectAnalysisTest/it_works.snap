@@ -1,0 +1,722 @@
+{
+    "summary": {
+        "unique_translation_key_count": 131,
+        "unique_translation_set_count": 9,
+        "translation_key_count": 143,
+        "translation_set_count": 13,
+        "translation_line_count": 143,
+        "translation_line_word_count": 193,
+        "translation_line_character_count": 1327
+    },
+    "locales": {
+        "en": {
+            "summary": {
+                "translation_set_count": 9,
+                "translation_line_count": 131,
+                "translation_line_word_count": 152,
+                "translation_line_character_count": 937
+            },
+            "translation_sets": {
+                "UNGROUPED": {
+                    "summary": {
+                        "translation_line_count": 16,
+                        "translation_line_word_count": 18,
+                        "translation_line_character_count": 165
+                    },
+                    "lines": {
+                        "Hello": {
+                            "word_count": 2,
+                            "character_count": 13
+                        },
+                        "array_empty": {
+                            "word_count": 0,
+                            "character_count": 0
+                        },
+                        "false": {
+                            "word_count": 1,
+                            "character_count": 5
+                        },
+                        "float": {
+                            "word_count": 1,
+                            "character_count": 7
+                        },
+                        "int": {
+                            "word_count": 1,
+                            "character_count": 3
+                        },
+                        "null": {
+                            "word_count": 0,
+                            "character_count": 0
+                        },
+                        "pages.dashboard.nav.users.billing": {
+                            "word_count": 3,
+                            "character_count": 53
+                        },
+                        "pages.dashboard.nav.users.logout": {
+                            "word_count": 3,
+                            "character_count": 52
+                        },
+                        "string": {
+                            "word_count": 1,
+                            "character_count": 5
+                        },
+                        "string_empty": {
+                            "word_count": 0,
+                            "character_count": 0
+                        },
+                        "string_false": {
+                            "word_count": 1,
+                            "character_count": 5
+                        },
+                        "string_float": {
+                            "word_count": 1,
+                            "character_count": 7
+                        },
+                        "string_int": {
+                            "word_count": 1,
+                            "character_count": 3
+                        },
+                        "string_null": {
+                            "word_count": 1,
+                            "character_count": 4
+                        },
+                        "string_true": {
+                            "word_count": 1,
+                            "character_count": 4
+                        },
+                        "true": {
+                            "word_count": 1,
+                            "character_count": 4
+                        }
+                    }
+                },
+                "auth": {
+                    "summary": {
+                        "translation_line_count": 4,
+                        "translation_line_word_count": 31,
+                        "translation_line_character_count": 196
+                    },
+                    "lines": {
+                        "failed": {
+                            "word_count": 7,
+                            "character_count": 43
+                        },
+                        "failed_bis": {
+                            "word_count": 7,
+                            "character_count": 43
+                        },
+                        "password": {
+                            "word_count": 7,
+                            "character_count": 48
+                        },
+                        "throttle": {
+                            "word_count": 10,
+                            "character_count": 62
+                        }
+                    }
+                },
+                "email": {
+                    "summary": {
+                        "translation_line_count": 3,
+                        "translation_line_word_count": 3,
+                        "translation_line_character_count": 52
+                    },
+                    "lines": {
+                        "Contact": {
+                            "word_count": 1,
+                            "character_count": 19
+                        },
+                        "Help": {
+                            "word_count": 1,
+                            "character_count": 16
+                        },
+                        "Sales": {
+                            "word_count": 1,
+                            "character_count": 17
+                        }
+                    }
+                },
+                "flash": {
+                    "summary": {
+                        "translation_line_count": 4,
+                        "translation_line_word_count": 6,
+                        "translation_line_character_count": 40
+                    },
+                    "lines": {
+                        "billing": {
+                            "word_count": 0,
+                            "character_count": 0
+                        },
+                        "organization": {
+                            "word_count": 0,
+                            "character_count": 0
+                        },
+                        "user.creation.error": {
+                            "word_count": 3,
+                            "character_count": 19
+                        },
+                        "user.creation.success": {
+                            "word_count": 3,
+                            "character_count": 21
+                        }
+                    }
+                },
+                "pages\/dashboard\/nav": {
+                    "summary": {
+                        "translation_line_count": 4,
+                        "translation_line_word_count": 5,
+                        "translation_line_character_count": 29
+                    },
+                    "lines": {
+                        "users.billing": {
+                            "word_count": 1,
+                            "character_count": 7
+                        },
+                        "users.logout": {
+                            "word_count": 2,
+                            "character_count": 7
+                        },
+                        "users.password": {
+                            "word_count": 1,
+                            "character_count": 8
+                        },
+                        "users.profile": {
+                            "word_count": 1,
+                            "character_count": 7
+                        }
+                    }
+                },
+                "some_package::auth": {
+                    "summary": {
+                        "translation_line_count": 1,
+                        "translation_line_word_count": 7,
+                        "translation_line_character_count": 43
+                    },
+                    "lines": {
+                        "failed_bis_from_vendor": {
+                            "word_count": 7,
+                            "character_count": 43
+                        }
+                    }
+                },
+                "some_package::example": {
+                    "summary": {
+                        "translation_line_count": 1,
+                        "translation_line_word_count": 1,
+                        "translation_line_character_count": 14
+                    },
+                    "lines": {
+                        "attributes.attribute_1": {
+                            "word_count": 1,
+                            "character_count": 14
+                        }
+                    }
+                },
+                "some_package::pages\/dashboard\/nav": {
+                    "summary": {
+                        "translation_line_count": 2,
+                        "translation_line_word_count": 6,
+                        "translation_line_character_count": 42
+                    },
+                    "lines": {
+                        "users.password": {
+                            "word_count": 3,
+                            "character_count": 19
+                        },
+                        "users.password_bis": {
+                            "word_count": 3,
+                            "character_count": 23
+                        }
+                    }
+                },
+                "value_types": {
+                    "summary": {
+                        "translation_line_count": 96,
+                        "translation_line_word_count": 75,
+                        "translation_line_character_count": 356
+                    },
+                    "lines": {
+                        "Closure_Closure_stdClass.array_empty": {
+                            "word_count": 0,
+                            "character_count": 0
+                        },
+                        "Closure_Closure_stdClass.array_filled.attributes.address.line_1": {
+                            "word_count": 1,
+                            "character_count": 3
+                        },
+                        "Closure_Closure_stdClass.array_filled.attributes.address.line_2": {
+                            "word_count": 0,
+                            "character_count": 0
+                        },
+                        "Closure_Closure_stdClass.array_filled.attributes.address.street": {
+                            "word_count": 1,
+                            "character_count": 3
+                        },
+                        "Closure_Closure_stdClass.false": {
+                            "word_count": 1,
+                            "character_count": 5
+                        },
+                        "Closure_Closure_stdClass.float": {
+                            "word_count": 1,
+                            "character_count": 7
+                        },
+                        "Closure_Closure_stdClass.int": {
+                            "word_count": 1,
+                            "character_count": 3
+                        },
+                        "Closure_Closure_stdClass.null": {
+                            "word_count": 0,
+                            "character_count": 0
+                        },
+                        "Closure_Closure_stdClass.string": {
+                            "word_count": 1,
+                            "character_count": 5
+                        },
+                        "Closure_Closure_stdClass.true": {
+                            "word_count": 1,
+                            "character_count": 4
+                        },
+                        "Closure_Collection_empty": {
+                            "word_count": 0,
+                            "character_count": 0
+                        },
+                        "Closure_Collection_filled_false.0": {
+                            "word_count": 1,
+                            "character_count": 5
+                        },
+                        "Closure_Collection_filled_float.0": {
+                            "word_count": 1,
+                            "character_count": 7
+                        },
+                        "Closure_Collection_filled_int.0": {
+                            "word_count": 1,
+                            "character_count": 3
+                        },
+                        "Closure_Collection_filled_null.0": {
+                            "word_count": 0,
+                            "character_count": 0
+                        },
+                        "Closure_Collection_filled_string.0": {
+                            "word_count": 1,
+                            "character_count": 5
+                        },
+                        "Closure_Collection_filled_true.0": {
+                            "word_count": 1,
+                            "character_count": 4
+                        },
+                        "Closure_Stringable": {
+                            "word_count": 2,
+                            "character_count": 14
+                        },
+                        "Closure_false": {
+                            "word_count": 1,
+                            "character_count": 5
+                        },
+                        "Closure_float": {
+                            "word_count": 1,
+                            "character_count": 7
+                        },
+                        "Closure_int": {
+                            "word_count": 1,
+                            "character_count": 3
+                        },
+                        "Closure_multi_Collection_filled_false.hey": {
+                            "word_count": 1,
+                            "character_count": 5
+                        },
+                        "Closure_multi_Collection_filled_float.hey": {
+                            "word_count": 1,
+                            "character_count": 7
+                        },
+                        "Closure_multi_Collection_filled_int.hey": {
+                            "word_count": 1,
+                            "character_count": 3
+                        },
+                        "Closure_multi_Collection_filled_null.hey": {
+                            "word_count": 0,
+                            "character_count": 0
+                        },
+                        "Closure_multi_Collection_filled_string.hey": {
+                            "word_count": 1,
+                            "character_count": 5
+                        },
+                        "Closure_multi_Collection_filled_true.hey": {
+                            "word_count": 1,
+                            "character_count": 4
+                        },
+                        "Closure_null": {
+                            "word_count": 0,
+                            "character_count": 0
+                        },
+                        "Closure_stdClass.array_empty": {
+                            "word_count": 0,
+                            "character_count": 0
+                        },
+                        "Closure_stdClass.array_filled.attributes.address.line_1": {
+                            "word_count": 1,
+                            "character_count": 3
+                        },
+                        "Closure_stdClass.array_filled.attributes.address.line_2": {
+                            "word_count": 0,
+                            "character_count": 0
+                        },
+                        "Closure_stdClass.array_filled.attributes.address.street": {
+                            "word_count": 1,
+                            "character_count": 3
+                        },
+                        "Closure_stdClass.false": {
+                            "word_count": 1,
+                            "character_count": 5
+                        },
+                        "Closure_stdClass.float": {
+                            "word_count": 1,
+                            "character_count": 7
+                        },
+                        "Closure_stdClass.int": {
+                            "word_count": 1,
+                            "character_count": 3
+                        },
+                        "Closure_stdClass.null": {
+                            "word_count": 0,
+                            "character_count": 0
+                        },
+                        "Closure_stdClass.string": {
+                            "word_count": 1,
+                            "character_count": 5
+                        },
+                        "Closure_stdClass.true": {
+                            "word_count": 1,
+                            "character_count": 4
+                        },
+                        "Closure_string": {
+                            "word_count": 1,
+                            "character_count": 5
+                        },
+                        "Closure_string_empty": {
+                            "word_count": 0,
+                            "character_count": 0
+                        },
+                        "Closure_string_false": {
+                            "word_count": 1,
+                            "character_count": 5
+                        },
+                        "Closure_string_float": {
+                            "word_count": 1,
+                            "character_count": 7
+                        },
+                        "Closure_string_int": {
+                            "word_count": 1,
+                            "character_count": 3
+                        },
+                        "Closure_string_null": {
+                            "word_count": 1,
+                            "character_count": 4
+                        },
+                        "Closure_string_true": {
+                            "word_count": 1,
+                            "character_count": 4
+                        },
+                        "Closure_true": {
+                            "word_count": 1,
+                            "character_count": 4
+                        },
+                        "Closure_with_params": {
+                            "word_count": 0,
+                            "character_count": 0
+                        },
+                        "Collection_empty": {
+                            "word_count": 0,
+                            "character_count": 0
+                        },
+                        "Collection_filled_false.0": {
+                            "word_count": 1,
+                            "character_count": 5
+                        },
+                        "Collection_filled_float.0": {
+                            "word_count": 1,
+                            "character_count": 7
+                        },
+                        "Collection_filled_int.0": {
+                            "word_count": 1,
+                            "character_count": 3
+                        },
+                        "Collection_filled_null.0": {
+                            "word_count": 0,
+                            "character_count": 0
+                        },
+                        "Collection_filled_string.0": {
+                            "word_count": 1,
+                            "character_count": 5
+                        },
+                        "Collection_filled_true.0": {
+                            "word_count": 1,
+                            "character_count": 4
+                        },
+                        "Stringable": {
+                            "word_count": 2,
+                            "character_count": 14
+                        },
+                        "array_empty": {
+                            "word_count": 0,
+                            "character_count": 0
+                        },
+                        "array_filled_false.0": {
+                            "word_count": 1,
+                            "character_count": 5
+                        },
+                        "array_filled_float.0": {
+                            "word_count": 1,
+                            "character_count": 7
+                        },
+                        "array_filled_int.0": {
+                            "word_count": 1,
+                            "character_count": 3
+                        },
+                        "array_filled_null.0": {
+                            "word_count": 0,
+                            "character_count": 0
+                        },
+                        "array_filled_string.0": {
+                            "word_count": 1,
+                            "character_count": 5
+                        },
+                        "array_filled_true.0": {
+                            "word_count": 1,
+                            "character_count": 4
+                        },
+                        "false": {
+                            "word_count": 1,
+                            "character_count": 5
+                        },
+                        "float": {
+                            "word_count": 1,
+                            "character_count": 7
+                        },
+                        "int": {
+                            "word_count": 1,
+                            "character_count": 3
+                        },
+                        "multi_Collection_filled_false.hey": {
+                            "word_count": 1,
+                            "character_count": 5
+                        },
+                        "multi_Collection_filled_float.hey": {
+                            "word_count": 1,
+                            "character_count": 7
+                        },
+                        "multi_Collection_filled_int.hey": {
+                            "word_count": 1,
+                            "character_count": 3
+                        },
+                        "multi_Collection_filled_null.hey": {
+                            "word_count": 0,
+                            "character_count": 0
+                        },
+                        "multi_Collection_filled_string.hey": {
+                            "word_count": 1,
+                            "character_count": 5
+                        },
+                        "multi_Collection_filled_true.hey": {
+                            "word_count": 1,
+                            "character_count": 4
+                        },
+                        "multi_array_filled_false.hey": {
+                            "word_count": 1,
+                            "character_count": 5
+                        },
+                        "multi_array_filled_float.hey": {
+                            "word_count": 1,
+                            "character_count": 7
+                        },
+                        "multi_array_filled_int.hey": {
+                            "word_count": 1,
+                            "character_count": 3
+                        },
+                        "multi_array_filled_null.hey": {
+                            "word_count": 0,
+                            "character_count": 0
+                        },
+                        "multi_array_filled_string.hey": {
+                            "word_count": 1,
+                            "character_count": 5
+                        },
+                        "multi_array_filled_true.hey": {
+                            "word_count": 1,
+                            "character_count": 4
+                        },
+                        "null": {
+                            "word_count": 0,
+                            "character_count": 0
+                        },
+                        "stdClass.array_empty": {
+                            "word_count": 0,
+                            "character_count": 0
+                        },
+                        "stdClass.array_filled.attributes.address.line_1": {
+                            "word_count": 1,
+                            "character_count": 3
+                        },
+                        "stdClass.array_filled.attributes.address.line_2": {
+                            "word_count": 0,
+                            "character_count": 0
+                        },
+                        "stdClass.array_filled.attributes.address.street": {
+                            "word_count": 1,
+                            "character_count": 3
+                        },
+                        "stdClass.false": {
+                            "word_count": 1,
+                            "character_count": 5
+                        },
+                        "stdClass.float": {
+                            "word_count": 1,
+                            "character_count": 7
+                        },
+                        "stdClass.int": {
+                            "word_count": 1,
+                            "character_count": 3
+                        },
+                        "stdClass.null": {
+                            "word_count": 0,
+                            "character_count": 0
+                        },
+                        "stdClass.string": {
+                            "word_count": 1,
+                            "character_count": 5
+                        },
+                        "stdClass.true": {
+                            "word_count": 1,
+                            "character_count": 4
+                        },
+                        "string": {
+                            "word_count": 1,
+                            "character_count": 5
+                        },
+                        "string_empty": {
+                            "word_count": 0,
+                            "character_count": 0
+                        },
+                        "string_false": {
+                            "word_count": 1,
+                            "character_count": 5
+                        },
+                        "string_float": {
+                            "word_count": 1,
+                            "character_count": 7
+                        },
+                        "string_int": {
+                            "word_count": 1,
+                            "character_count": 3
+                        },
+                        "string_null": {
+                            "word_count": 1,
+                            "character_count": 4
+                        },
+                        "string_true": {
+                            "word_count": 1,
+                            "character_count": 4
+                        },
+                        "true": {
+                            "word_count": 1,
+                            "character_count": 4
+                        }
+                    }
+                }
+            }
+        },
+        "fr": {
+            "summary": {
+                "translation_set_count": 4,
+                "translation_line_count": 12,
+                "translation_line_word_count": 41,
+                "translation_line_character_count": 390
+            },
+            "translation_sets": {
+                "UNGROUPED": {
+                    "summary": {
+                        "translation_line_count": 4,
+                        "translation_line_word_count": 11,
+                        "translation_line_character_count": 191
+                    },
+                    "lines": {
+                        "Hello": {
+                            "word_count": 2,
+                            "character_count": 17
+                        },
+                        "pages.dashboard.nav.users.billing": {
+                            "word_count": 3,
+                            "character_count": 57
+                        },
+                        "pages.dashboard.nav.users.logout": {
+                            "word_count": 3,
+                            "character_count": 56
+                        },
+                        "pages\/dashboard\/nav.users.logout": {
+                            "word_count": 3,
+                            "character_count": 61
+                        }
+                    }
+                },
+                "auth": {
+                    "summary": {
+                        "translation_line_count": 2,
+                        "translation_line_word_count": 15,
+                        "translation_line_character_count": 100
+                    },
+                    "lines": {
+                        "failed_bis": {
+                            "word_count": 8,
+                            "character_count": 48
+                        },
+                        "password": {
+                            "word_count": 7,
+                            "character_count": 52
+                        }
+                    }
+                },
+                "pages\/dashboard\/nav": {
+                    "summary": {
+                        "translation_line_count": 4,
+                        "translation_line_word_count": 9,
+                        "translation_line_character_count": 49
+                    },
+                    "lines": {
+                        "users.billing": {
+                            "word_count": 2,
+                            "character_count": 12
+                        },
+                        "users.logout": {
+                            "word_count": 3,
+                            "character_count": 12
+                        },
+                        "users.password": {
+                            "word_count": 2,
+                            "character_count": 13
+                        },
+                        "users.profile": {
+                            "word_count": 2,
+                            "character_count": 12
+                        }
+                    }
+                },
+                "some_package::pages\/dashboard\/nav": {
+                    "summary": {
+                        "translation_line_count": 2,
+                        "translation_line_word_count": 6,
+                        "translation_line_character_count": 50
+                    },
+                    "lines": {
+                        "users.password": {
+                            "word_count": 3,
+                            "character_count": 23
+                        },
+                        "users.password_bis": {
+                            "word_count": 3,
+                            "character_count": 27
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

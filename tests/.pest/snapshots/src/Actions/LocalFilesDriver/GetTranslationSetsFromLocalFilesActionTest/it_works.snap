@@ -1,0 +1,1107 @@
+[
+    {
+        "locale": "en",
+        "group": "auth",
+        "namespace": null,
+        "lines": [
+            {
+                "key": "failed",
+                "value": "These credentials do not match our records.",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "password",
+                "value": "[Modified] - The provided password is incorrect.",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "throttle",
+                "value": "Too many login attempts. Please try again in :seconds seconds.",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "failed_bis",
+                "value": "These credentials do not match our records.",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            }
+        ],
+        "meta": null
+    },
+    {
+        "locale": "fr",
+        "group": "auth",
+        "namespace": null,
+        "lines": [
+            {
+                "key": "failed_bis",
+                "value": "[FR] These credentials do not match our records.",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "password",
+                "value": "[FR][Modified] - The provided password is incorrect.",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            }
+        ],
+        "meta": null
+    },
+    {
+        "locale": "en",
+        "group": "email",
+        "namespace": null,
+        "lines": [
+            {
+                "key": "Contact",
+                "value": "contact@example.com",
+                "meta": {
+                    "original_value_type": "object"
+                }
+            },
+            {
+                "key": "Help",
+                "value": "help@example.com",
+                "meta": {
+                    "original_value_type": "object"
+                }
+            },
+            {
+                "key": "Sales",
+                "value": "sales@example.com",
+                "meta": {
+                    "original_value_type": "object"
+                }
+            }
+        ],
+        "meta": null
+    },
+    {
+        "locale": "en",
+        "group": "flash",
+        "namespace": null,
+        "lines": [
+            {
+                "key": "user.creation.success",
+                "value": "Some success message.",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "user.creation.error",
+                "value": "Some error message.",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "organization",
+                "value": null,
+                "meta": {
+                    "original_value_type": "array"
+                }
+            },
+            {
+                "key": "billing",
+                "value": null,
+                "meta": {
+                    "original_value_type": "NULL"
+                }
+            }
+        ],
+        "meta": null
+    },
+    {
+        "locale": "en",
+        "group": "pages\/dashboard\/nav",
+        "namespace": null,
+        "lines": [
+            {
+                "key": "users.profile",
+                "value": "Profile",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "users.billing",
+                "value": "Billing",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "users.password",
+                "value": "Password",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "users.logout",
+                "value": "Log out",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            }
+        ],
+        "meta": null
+    },
+    {
+        "locale": "fr",
+        "group": "pages\/dashboard\/nav",
+        "namespace": null,
+        "lines": [
+            {
+                "key": "users.profile",
+                "value": "[FR] Profile",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "users.billing",
+                "value": "[FR] Billing",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "users.password",
+                "value": "[FR] Password",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "users.logout",
+                "value": "[FR] Log out",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            }
+        ],
+        "meta": null
+    },
+    {
+        "locale": "en",
+        "group": "value_types",
+        "namespace": null,
+        "lines": [
+            {
+                "key": "null",
+                "value": null,
+                "meta": {
+                    "original_value_type": "NULL"
+                }
+            },
+            {
+                "key": "string",
+                "value": "hello",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "true",
+                "value": true,
+                "meta": {
+                    "original_value_type": "boolean"
+                }
+            },
+            {
+                "key": "false",
+                "value": false,
+                "meta": {
+                    "original_value_type": "boolean"
+                }
+            },
+            {
+                "key": "int",
+                "value": 123,
+                "meta": {
+                    "original_value_type": "integer"
+                }
+            },
+            {
+                "key": "float",
+                "value": 123.123,
+                "meta": {
+                    "original_value_type": "double"
+                }
+            },
+            {
+                "key": "string_null",
+                "value": "null",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "string_true",
+                "value": "true",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "string_false",
+                "value": "false",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "string_int",
+                "value": "123",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "string_float",
+                "value": "123.123",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "string_empty",
+                "value": "",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "array_filled_null.0",
+                "value": null,
+                "meta": {
+                    "original_value_type": "NULL"
+                }
+            },
+            {
+                "key": "array_filled_string.0",
+                "value": "hello",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "array_filled_true.0",
+                "value": true,
+                "meta": {
+                    "original_value_type": "boolean"
+                }
+            },
+            {
+                "key": "array_filled_false.0",
+                "value": false,
+                "meta": {
+                    "original_value_type": "boolean"
+                }
+            },
+            {
+                "key": "array_filled_int.0",
+                "value": 123,
+                "meta": {
+                    "original_value_type": "integer"
+                }
+            },
+            {
+                "key": "array_filled_float.0",
+                "value": 123.123,
+                "meta": {
+                    "original_value_type": "double"
+                }
+            },
+            {
+                "key": "array_empty",
+                "value": null,
+                "meta": {
+                    "original_value_type": "array"
+                }
+            },
+            {
+                "key": "multi_array_filled_null.hey",
+                "value": null,
+                "meta": {
+                    "original_value_type": "NULL"
+                }
+            },
+            {
+                "key": "multi_array_filled_string.hey",
+                "value": "hello",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "multi_array_filled_true.hey",
+                "value": true,
+                "meta": {
+                    "original_value_type": "boolean"
+                }
+            },
+            {
+                "key": "multi_array_filled_false.hey",
+                "value": false,
+                "meta": {
+                    "original_value_type": "boolean"
+                }
+            },
+            {
+                "key": "multi_array_filled_int.hey",
+                "value": 123,
+                "meta": {
+                    "original_value_type": "integer"
+                }
+            },
+            {
+                "key": "multi_array_filled_float.hey",
+                "value": 123.123,
+                "meta": {
+                    "original_value_type": "double"
+                }
+            },
+            {
+                "key": "Collection_filled_null.0",
+                "value": null,
+                "meta": {
+                    "original_value_type": "NULL"
+                }
+            },
+            {
+                "key": "Collection_filled_string.0",
+                "value": "hello",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "Collection_filled_true.0",
+                "value": true,
+                "meta": {
+                    "original_value_type": "boolean"
+                }
+            },
+            {
+                "key": "Collection_filled_false.0",
+                "value": false,
+                "meta": {
+                    "original_value_type": "boolean"
+                }
+            },
+            {
+                "key": "Collection_filled_int.0",
+                "value": 123,
+                "meta": {
+                    "original_value_type": "integer"
+                }
+            },
+            {
+                "key": "Collection_filled_float.0",
+                "value": 123.123,
+                "meta": {
+                    "original_value_type": "double"
+                }
+            },
+            {
+                "key": "Collection_empty",
+                "value": null,
+                "meta": {
+                    "original_value_type": "array"
+                }
+            },
+            {
+                "key": "multi_Collection_filled_null.hey",
+                "value": null,
+                "meta": {
+                    "original_value_type": "NULL"
+                }
+            },
+            {
+                "key": "multi_Collection_filled_string.hey",
+                "value": "hello",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "multi_Collection_filled_true.hey",
+                "value": true,
+                "meta": {
+                    "original_value_type": "boolean"
+                }
+            },
+            {
+                "key": "multi_Collection_filled_false.hey",
+                "value": false,
+                "meta": {
+                    "original_value_type": "boolean"
+                }
+            },
+            {
+                "key": "multi_Collection_filled_int.hey",
+                "value": 123,
+                "meta": {
+                    "original_value_type": "integer"
+                }
+            },
+            {
+                "key": "multi_Collection_filled_float.hey",
+                "value": 123.123,
+                "meta": {
+                    "original_value_type": "double"
+                }
+            },
+            {
+                "key": "Stringable",
+                "value": "I'm Stringable",
+                "meta": {
+                    "original_value_type": "object"
+                }
+            },
+            {
+                "key": "stdClass.null",
+                "value": null,
+                "meta": {
+                    "original_value_type": "NULL"
+                }
+            },
+            {
+                "key": "stdClass.string",
+                "value": "hello",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "stdClass.true",
+                "value": true,
+                "meta": {
+                    "original_value_type": "boolean"
+                }
+            },
+            {
+                "key": "stdClass.false",
+                "value": false,
+                "meta": {
+                    "original_value_type": "boolean"
+                }
+            },
+            {
+                "key": "stdClass.int",
+                "value": 123,
+                "meta": {
+                    "original_value_type": "integer"
+                }
+            },
+            {
+                "key": "stdClass.float",
+                "value": 123.123,
+                "meta": {
+                    "original_value_type": "double"
+                }
+            },
+            {
+                "key": "stdClass.array_empty",
+                "value": null,
+                "meta": {
+                    "original_value_type": "array"
+                }
+            },
+            {
+                "key": "stdClass.array_filled.attributes.address.line_1",
+                "value": 123,
+                "meta": {
+                    "original_value_type": "integer"
+                }
+            },
+            {
+                "key": "stdClass.array_filled.attributes.address.line_2",
+                "value": null,
+                "meta": {
+                    "original_value_type": "NULL"
+                }
+            },
+            {
+                "key": "stdClass.array_filled.attributes.address.street",
+                "value": "abc",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "Closure_null",
+                "value": null,
+                "meta": {
+                    "original_value_type": "NULL"
+                }
+            },
+            {
+                "key": "Closure_string",
+                "value": "hello",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "Closure_true",
+                "value": true,
+                "meta": {
+                    "original_value_type": "boolean"
+                }
+            },
+            {
+                "key": "Closure_false",
+                "value": false,
+                "meta": {
+                    "original_value_type": "boolean"
+                }
+            },
+            {
+                "key": "Closure_int",
+                "value": 123,
+                "meta": {
+                    "original_value_type": "integer"
+                }
+            },
+            {
+                "key": "Closure_float",
+                "value": 123.123,
+                "meta": {
+                    "original_value_type": "double"
+                }
+            },
+            {
+                "key": "Closure_string_null",
+                "value": "null",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "Closure_string_true",
+                "value": "true",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "Closure_string_false",
+                "value": "false",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "Closure_string_int",
+                "value": "123",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "Closure_string_float",
+                "value": "123.123",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "Closure_string_empty",
+                "value": "",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "Closure_Collection_filled_null.0",
+                "value": null,
+                "meta": {
+                    "original_value_type": "NULL"
+                }
+            },
+            {
+                "key": "Closure_Collection_filled_string.0",
+                "value": "hello",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "Closure_Collection_filled_true.0",
+                "value": true,
+                "meta": {
+                    "original_value_type": "boolean"
+                }
+            },
+            {
+                "key": "Closure_Collection_filled_false.0",
+                "value": false,
+                "meta": {
+                    "original_value_type": "boolean"
+                }
+            },
+            {
+                "key": "Closure_Collection_filled_int.0",
+                "value": 123,
+                "meta": {
+                    "original_value_type": "integer"
+                }
+            },
+            {
+                "key": "Closure_Collection_filled_float.0",
+                "value": 123.123,
+                "meta": {
+                    "original_value_type": "double"
+                }
+            },
+            {
+                "key": "Closure_Collection_empty",
+                "value": null,
+                "meta": {
+                    "original_value_type": "array"
+                }
+            },
+            {
+                "key": "Closure_multi_Collection_filled_null.hey",
+                "value": null,
+                "meta": {
+                    "original_value_type": "NULL"
+                }
+            },
+            {
+                "key": "Closure_multi_Collection_filled_string.hey",
+                "value": "hello",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "Closure_multi_Collection_filled_true.hey",
+                "value": true,
+                "meta": {
+                    "original_value_type": "boolean"
+                }
+            },
+            {
+                "key": "Closure_multi_Collection_filled_false.hey",
+                "value": false,
+                "meta": {
+                    "original_value_type": "boolean"
+                }
+            },
+            {
+                "key": "Closure_multi_Collection_filled_int.hey",
+                "value": 123,
+                "meta": {
+                    "original_value_type": "integer"
+                }
+            },
+            {
+                "key": "Closure_multi_Collection_filled_float.hey",
+                "value": 123.123,
+                "meta": {
+                    "original_value_type": "double"
+                }
+            },
+            {
+                "key": "Closure_Stringable",
+                "value": "I'm Stringable",
+                "meta": {
+                    "original_value_type": "object"
+                }
+            },
+            {
+                "key": "Closure_stdClass.null",
+                "value": null,
+                "meta": {
+                    "original_value_type": "NULL"
+                }
+            },
+            {
+                "key": "Closure_stdClass.string",
+                "value": "hello",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "Closure_stdClass.true",
+                "value": true,
+                "meta": {
+                    "original_value_type": "boolean"
+                }
+            },
+            {
+                "key": "Closure_stdClass.false",
+                "value": false,
+                "meta": {
+                    "original_value_type": "boolean"
+                }
+            },
+            {
+                "key": "Closure_stdClass.int",
+                "value": 123,
+                "meta": {
+                    "original_value_type": "integer"
+                }
+            },
+            {
+                "key": "Closure_stdClass.float",
+                "value": 123.123,
+                "meta": {
+                    "original_value_type": "double"
+                }
+            },
+            {
+                "key": "Closure_stdClass.array_empty",
+                "value": null,
+                "meta": {
+                    "original_value_type": "array"
+                }
+            },
+            {
+                "key": "Closure_stdClass.array_filled.attributes.address.line_1",
+                "value": 123,
+                "meta": {
+                    "original_value_type": "integer"
+                }
+            },
+            {
+                "key": "Closure_stdClass.array_filled.attributes.address.line_2",
+                "value": null,
+                "meta": {
+                    "original_value_type": "NULL"
+                }
+            },
+            {
+                "key": "Closure_stdClass.array_filled.attributes.address.street",
+                "value": "abc",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "Closure_Closure_stdClass.null",
+                "value": null,
+                "meta": {
+                    "original_value_type": "NULL"
+                }
+            },
+            {
+                "key": "Closure_Closure_stdClass.string",
+                "value": "hello",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "Closure_Closure_stdClass.true",
+                "value": true,
+                "meta": {
+                    "original_value_type": "boolean"
+                }
+            },
+            {
+                "key": "Closure_Closure_stdClass.false",
+                "value": false,
+                "meta": {
+                    "original_value_type": "boolean"
+                }
+            },
+            {
+                "key": "Closure_Closure_stdClass.int",
+                "value": 123,
+                "meta": {
+                    "original_value_type": "integer"
+                }
+            },
+            {
+                "key": "Closure_Closure_stdClass.float",
+                "value": 123.123,
+                "meta": {
+                    "original_value_type": "double"
+                }
+            },
+            {
+                "key": "Closure_Closure_stdClass.array_empty",
+                "value": null,
+                "meta": {
+                    "original_value_type": "array"
+                }
+            },
+            {
+                "key": "Closure_Closure_stdClass.array_filled.attributes.address.line_1",
+                "value": 123,
+                "meta": {
+                    "original_value_type": "integer"
+                }
+            },
+            {
+                "key": "Closure_Closure_stdClass.array_filled.attributes.address.line_2",
+                "value": null,
+                "meta": {
+                    "original_value_type": "NULL"
+                }
+            },
+            {
+                "key": "Closure_Closure_stdClass.array_filled.attributes.address.street",
+                "value": "abc",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "Closure_with_params",
+                "value": null,
+                "meta": {
+                    "original_value_type": "NULL"
+                }
+            }
+        ],
+        "meta": null
+    },
+    {
+        "locale": "en",
+        "group": null,
+        "namespace": null,
+        "lines": [
+            {
+                "key": "Hello",
+                "value": "[JSON] Hello!",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "pages.dashboard.nav.users.billing",
+                "value": "[JSON] overriden 'pages.dashboard.nav.users.billing'!",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "pages.dashboard.nav.users.logout",
+                "value": "[JSON] overriden 'pages.dashboard.nav.users.logout'!",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "null",
+                "value": null,
+                "meta": {
+                    "original_value_type": "NULL"
+                }
+            },
+            {
+                "key": "string",
+                "value": "hello",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "true",
+                "value": true,
+                "meta": {
+                    "original_value_type": "boolean"
+                }
+            },
+            {
+                "key": "false",
+                "value": false,
+                "meta": {
+                    "original_value_type": "boolean"
+                }
+            },
+            {
+                "key": "int",
+                "value": 123,
+                "meta": {
+                    "original_value_type": "integer"
+                }
+            },
+            {
+                "key": "float",
+                "value": 123.123,
+                "meta": {
+                    "original_value_type": "double"
+                }
+            },
+            {
+                "key": "string_null",
+                "value": "null",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "string_true",
+                "value": "true",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "string_false",
+                "value": "false",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "string_int",
+                "value": "123",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "string_float",
+                "value": "123.123",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "string_empty",
+                "value": "",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "array_empty",
+                "value": null,
+                "meta": {
+                    "original_value_type": "array"
+                }
+            }
+        ],
+        "meta": null
+    },
+    {
+        "locale": "fr",
+        "group": null,
+        "namespace": null,
+        "lines": [
+            {
+                "key": "Hello",
+                "value": "[FR][JSON] Hello!",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "pages.dashboard.nav.users.billing",
+                "value": "[FR][JSON] overriden 'pages.dashboard.nav.users.billing'!",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "pages.dashboard.nav.users.logout",
+                "value": "[FR][JSON] overriden 'pages.dashboard.nav.users.logout'!",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "pages\/dashboard\/nav.users.logout",
+                "value": "[FR][JSON][bis] overriden 'pages.dashboard.nav.users.logout'!",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            }
+        ],
+        "meta": null
+    },
+    {
+        "locale": "en",
+        "group": "auth",
+        "namespace": "some_package",
+        "lines": [
+            {
+                "key": "failed_bis_from_vendor",
+                "value": "These credentials do not match our records.",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            }
+        ],
+        "meta": null
+    },
+    {
+        "locale": "en",
+        "group": "example",
+        "namespace": "some_package",
+        "lines": [
+            {
+                "key": "attributes.attribute_1",
+                "value": "__str__value_1",
+                "meta": {
+                    "original_value_type": "object"
+                }
+            }
+        ],
+        "meta": null
+    },
+    {
+        "locale": "en",
+        "group": "pages\/dashboard\/nav",
+        "namespace": "some_package",
+        "lines": [
+            {
+                "key": "users.password",
+                "value": "[Vendor] - Password",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "users.password_bis",
+                "value": "[Vendor] - Password_bis",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            }
+        ],
+        "meta": null
+    },
+    {
+        "locale": "fr",
+        "group": "pages\/dashboard\/nav",
+        "namespace": "some_package",
+        "lines": [
+            {
+                "key": "users.password",
+                "value": "[Vendor][FR] - Password",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            },
+            {
+                "key": "users.password_bis",
+                "value": "[Vendor][FR] - Password_bis",
+                "meta": {
+                    "original_value_type": "string"
+                }
+            }
+        ],
+        "meta": null
+    }
+]

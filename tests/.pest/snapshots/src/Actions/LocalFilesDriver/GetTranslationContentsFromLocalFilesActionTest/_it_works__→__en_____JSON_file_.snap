@@ -1,0 +1,26 @@
+{
+    "Hello": "[JSON] Hello!",
+    "pages.dashboard.nav.users.billing": "[JSON] overriden 'pages.dashboard.nav.users.billing'!",
+    "pages": {
+        "dashboard": {
+            "nav": {
+                "users": {
+                    "logout": "[JSON] overriden 'pages.dashboard.nav.users.logout'!"
+                }
+            }
+        }
+    },
+    "null": null,
+    "string": "hello",
+    "true": true,
+    "false": false,
+    "int": 123,
+    "float": 123.123,
+    "string_null": "null",
+    "string_true": "true",
+    "string_false": "false",
+    "string_int": "123",
+    "string_float": "123.123",
+    "string_empty": "",
+    "array_empty": []
+}

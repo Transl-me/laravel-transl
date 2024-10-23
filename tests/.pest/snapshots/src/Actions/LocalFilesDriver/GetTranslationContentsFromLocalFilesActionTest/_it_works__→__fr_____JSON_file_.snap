@@ -1,0 +1,18 @@
+{
+    "Hello": "[FR][JSON] Hello!",
+    "pages.dashboard.nav.users.billing": "[FR][JSON] overriden 'pages.dashboard.nav.users.billing'!",
+    "pages": {
+        "dashboard": {
+            "nav": {
+                "users": {
+                    "logout": "[FR][JSON] overriden 'pages.dashboard.nav.users.logout'!"
+                }
+            }
+        }
+    },
+    "pages\/dashboard\/nav": {
+        "users": {
+            "logout": "[FR][JSON][bis] overriden 'pages.dashboard.nav.users.logout'!"
+        }
+    }
+}
