@@ -3,8 +3,8 @@
 [![GitHub Tests Action Status](https://github.com/transl-me/laravel-transl/actions/workflows/run-tests.yml/badge.svg)](https://github.com/transl-me/laravel-transl/actions/workflows/run-tests.yml)
 [![GitHub PHPStan Action Status](https://github.com/transl-me/laravel-transl/actions/workflows/phpstan.yml/badge.svg)](https://github.com/transl-me/laravel-transl/actions/workflows/phpstan.yml)
 [![GitHub Code Style Action Status](https://github.com/transl-me/laravel-transl/actions/workflows/fix-php-code-style-issues.yml/badge.svg)](https://github.com/transl-me/laravel-transl/actions/workflows/fix-php-code-style-issues.yml)
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/transl-me/laravel-transl.svg?style=flat-square)](https://packagist.org/packages/transl-me/laravel-transl)
-[![Total Downloads](https://img.shields.io/packagist/dt/transl-me/laravel-transl.svg?style=flat-square)](https://packagist.org/packages/transl-me/laravel-transl)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/transl-me/laravel-transl.svg)](https://packagist.org/packages/transl-me/laravel-transl)
+[![Total Downloads](https://img.shields.io/packagist/dt/transl-me/laravel-transl.svg)](https://packagist.org/packages/transl-me/laravel-transl)
 
 ---
 
