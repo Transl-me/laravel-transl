@@ -92,7 +92,7 @@ return [
              * This value should be unique per team members/bots.
              * This value should be created/retrieved/refreshed from Transl.
              */
-            'auth_key' => env('TRANSL_KEY'),
+            'auth_key' => env('TRANSL_KEY', 'Empty `TRANSL_KEY` environnement variable.'),
 
             /**
              * A user friendly name given to the project.
@@ -129,9 +129,13 @@ return [
                  * list of possible params and their description.
                  */
                 LocalFilesDriver::class => [
-                    'language_directories' => [
-                        lang_path(),
-                    ],
+                    'language_directories' => array_filter([
+                        /**
+                         * Ensure the language directory is first published
+                         * with: `php artisan lang:publish`.
+                         */
+                        file_exists(lang_path()) ? lang_path() : '',
+                    ]),
                 ],
             ],
         ],
