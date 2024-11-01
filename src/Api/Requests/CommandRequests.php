@@ -80,6 +80,7 @@ class CommandRequests
             ],
             'branching' => [
                 'default_branch_name' => $defaultBranch->name,
+                'default_branch_provenance' => $defaultBranch->provenance(),
             ],
         ]);
     }
