@@ -223,6 +223,7 @@ it('sends the necessary data on init start', function (): void {
         ],
         'branching' => [
             'default_branch_name' => 'default',
+            'default_branch_provenance' => 'default',
         ],
     ]);
 });
